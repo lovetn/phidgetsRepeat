@@ -13,6 +13,8 @@
 		6B29216C219E19390078EE5F /* phidgetsRepeat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B29216A219E19390078EE5F /* phidgetsRepeat.xcdatamodeld */; };
 		6B29216E219E193A0078EE5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B29216D219E193A0078EE5F /* Assets.xcassets */; };
 		6B292171219E193A0078EE5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B29216F219E193A0078EE5F /* LaunchScreen.storyboard */; };
+		6B97E973219F624100F3F90D /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B97E972219F624100F3F90D /* Pattern.swift */; };
+		6B97E975219F625400F3F90D /* PatternBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B97E974219F625400F3F90D /* PatternBank.swift */; };
 		9527E2820AE1B90E941A3357 /* Pods_phidgetsRepeat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D952DC329C4FEFDC83F88E2 /* Pods_phidgetsRepeat.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		6B29216D219E193A0078EE5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B292170219E193A0078EE5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B292172219E193A0078EE5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B97E972219F624100F3F90D /* Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pattern.swift; sourceTree = "<group>"; };
+		6B97E974219F625400F3F90D /* PatternBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternBank.swift; sourceTree = "<group>"; };
 		8D952DC329C4FEFDC83F88E2 /* Pods_phidgetsRepeat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_phidgetsRepeat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -53,6 +57,7 @@
 		6B292157219E19390078EE5F = {
 			isa = PBXGroup;
 			children = (
+				6B97E971219F61E900F3F90D /* New Group */,
 				6B292162219E19390078EE5F /* phidgetsRepeat */,
 				6B292161219E19390078EE5F /* Products */,
 				FE2E48278E15746B59457E8E /* Pods */,
@@ -80,6 +85,15 @@
 				6B29216A219E19390078EE5F /* phidgetsRepeat.xcdatamodeld */,
 			);
 			path = phidgetsRepeat;
+			sourceTree = "<group>";
+		};
+		6B97E971219F61E900F3F90D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				6B97E972219F624100F3F90D /* Pattern.swift */,
+				6B97E974219F625400F3F90D /* PatternBank.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		FE2E48278E15746B59457E8E /* Pods */ = {
@@ -212,7 +226,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B292166219E19390078EE5F /* ViewController.swift in Sources */,
+				6B97E973219F624100F3F90D /* Pattern.swift in Sources */,
 				6B29216C219E19390078EE5F /* phidgetsRepeat.xcdatamodeld in Sources */,
+				6B97E975219F625400F3F90D /* PatternBank.swift in Sources */,
 				6B292164219E19390078EE5F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
